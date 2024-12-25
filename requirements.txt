@@ -1,0 +1,6 @@
+pandas==1.5.3
+smtplib==3.6.1
+email==6.0.0
+datetime==4.3
+Flask==3.1.0
+requests==2.28.1
