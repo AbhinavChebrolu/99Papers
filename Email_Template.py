@@ -144,7 +144,7 @@ def check_email_sent(recipient_email, date):
     log_df = pd.read_csv(EMAIL_LOG_FILE)
     recipient_logs = log_df[(log_df['recipient_email'] == recipient_email) & (log_df['send_time'].str.startswith(date))]
     if not recipient_logs.empty:
-        print(f"Email already sent to {recipient_email} on {date}. Skipping...")
+        #print(f"Email already sent to {recipient_email} on {date}. Skipping...")
         return True
     return False
 
